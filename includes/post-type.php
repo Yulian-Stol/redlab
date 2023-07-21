@@ -1,6 +1,6 @@
 <?php 
 
-//------------------Register Custom Post Sleep----------------------
+//------------------Register Custom Post----------------------
 function event_post_type() {
 	$labels = array(
 		'name'                  => _x( 'Event', 'Post Type General Name', 'text_domain' ),
